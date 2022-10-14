@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.all-top{
+    margin: 0 auto;
+    padding: 5px 20px;
+}
+.seatch{
+    position: relative;
+    max-width: 500px;
+    width: 50%;
+    height: 35px;
+    display: flex;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+}
+.logo{
+    display: flex;
+}
+.home{
+    width: 60px;
+    height: 50px;
+    padding:0 0px 5px 0 ;
+}
+.yt{
+    width: 100pxpx;
+    position: relative;
+    bottom: 5px;
+    
+}
+.seatch1{
+    width: 85%;
+    height: 100%;
+    border: 2px solid #dbdbdb;
+    padding: 0 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+.seatch2{
+    width: 50px;
+    height: 40px;
+}
+.top{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 5px;
+    
+}
+.seatch1{
+    height: 40px;
+}
+#top1{width: 15%;
+    height: 40px;
+    background: #f0f0f0;
+    border: 2px solid #dbdbdb;
+    padding: 5px 0;
+    border-left: none;
+    }
+    .top1 img{
+        height: 100%;
+    }
+.icon-mic{
+    position: relative;
+    right: 180px;
+    top: 5px;
+    border-radius: 80%;
+    width: 40px;
+    height: 40px;
+
+}
+.icon-face{
+    margin-right: 40px;
+    width: 35px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+.icon-chuong{
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    width: 40px;
+    height: 35px;
+    
+    
+}
+.user{position: relative;
+    top: 5px;
+    border-radius: 50%;
+    width: 35px;
+}
+.mainbody{
+    display: flex;
+}
+.categories{
+    margin-top: 10px;
+    width: 16.66667%;
+    height: 100%;
+    font-weight: 600;}
+.menu{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.img-yt{
+    width: 40px;
+    height: 40px;
+}
+
+    .text1{
+        text-align: left;
+        position:relative;
+        left: 10px;
+        top: 10px;}
+    
+ .category{
+    width: 100%;
+    display: flex;
+    padding: 2px 20px;
+    
+ }
+ .sược{
+    margin-top: 15px;
+    opacity: 0.3;
+ }
+ .tach1{
+    margin-top: 10px;
+ }
+ .showmore{
+    position: relative;
+    top: 8px;
+    left: 8px;
+
+ }
+ .text12{
+    position: relative;
+    top: 5px;
+    left: 25px;
+ }
+ .sược2{
+    margin-top: 20px;
+    opacity: 0.3;
+ }
+ 
+ .UBSCRIBE{
+    text-align: center;
+    margin-top: 10px;}
+
+
+ .showmore1{
+    width: 25px;
+    height: 25px;
+    margin-left:  10px;
+    margin-top: 15px;
+    
+    border-radius: 50%;
+    }
+.text13{
+    margin-top: 19px;
+    margin-left: 18px;
+    
+}
+    
+    
+    
+    
+    
+    .filters{
+
+        width: 83.33333%;
+    position: fixed;
+    left: 250px;
+    top: 85px;
+
+ }
+.list-filters{
+    position: relative;
+    left: 50px;
+}
+ .filters button{
+    position: relative;
+    bottom: 18px;
+    flex: 0 0 auto  ;
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 10px 30px ;
+    border: 1px solid #ccc
+    
+ }
+.sược3{
+    opacity: 0.3;
+    position: relative;
+    bottom: 30px;
+    padding: auto;
+}
+
+
+.video-container{
+    width: calc(100% - 0px);
+    margin-left: 0px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px 5px;
+    
+}
+
+
+overflow-x: hidden;
+.video{
+    padding: 10px;
+    margin: 0 20px;
+    min-height: 250px;
+    height: auto;
+}
+.anhvideo{
+    width: 100%;
+    height: 193px;
+}
+.thumbnail{
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+}
+.content .info {
+    padding-right: 95px;
+}
+.channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.title{width: 200px;
+    height: 60px;
+    overflow: hidden;}
+
+
+.channel-name{
+    font-size: 14px;
+    margin: -10px -5px;
+    position: relative;
+    left: 5px;
+    color: #979797;
+}
+
+
